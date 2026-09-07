@@ -10,7 +10,7 @@ validate(){
 }
 
 runUser=$(id -u)
-if [ $runUser -eq 0] ; then
+if [ $runUser -eq 0 ] ; then
   echo "running with root user, Proceeding with installation steps"
 else
   echo "not running with root user, please execute with root user"
