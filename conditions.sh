@@ -8,6 +8,6 @@ then
 else if [ $sum -gt 10 ]
 then
    echo " number is greater than expected"
-else ]
+else
    echo " number is less than expected"
 fi
