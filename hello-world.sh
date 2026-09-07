@@ -1,7 +1,7 @@
 #!/bin/bash
 
-person1=theeta
-person2=dabba
+person1=$1
+person2=$2
 date=$(date)
 
 echo "$person1 : how are you dabba..?"
