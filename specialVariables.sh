@@ -11,3 +11,4 @@ echo "$$ is the PID of current script"
 sleep 10 &
 echo "$! is the PID of the last running process"
 echo "$? is the exit status of last command executed"
+echo "$USER running the script"
