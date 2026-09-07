@@ -12,6 +12,7 @@ if [ $? -ne 0 ] ; then
     echo "$installation installed.. SUCCESSFUL"
   else
     echo "$installation is failed.. FAILED"
+    exit 1
   fi
 else 
   echo "$installation already exists... SKIPPED"
