@@ -8,6 +8,6 @@ echo "$0 is the script name"
 echo "$pwd is the current script directory"
 echo "$HOME is the users home directory"
 echo "$$ is the PID of current script"
-echo "$! is the PID of the last running process"
 sleep 10 &
+echo "$! is the PID of the last running process"
 echo "$? is the exit status of last command executed"
