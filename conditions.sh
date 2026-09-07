@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sum=10
+sum=$1
 
 if [ $sum -eq 10 ]
 then
