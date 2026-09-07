@@ -17,12 +17,12 @@ else
   exit 1
 fi
 
-dnf list installed python3
+dnf list installed nginx
 
 if [ $? -ne 0 ] ; then
    echo "Package not exists, instaling the package"
-   dnf install python3
-   validate $? python3
+   dnf install nginx
+   validate $? nginx
 else
    echo "package already exists... SKIPPED"
    exit 1
