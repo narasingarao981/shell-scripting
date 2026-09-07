@@ -7,7 +7,7 @@ sum=$(($num1+$num2))
 
 echo "$sum"
 
-num3 = singam
+num3 = "singam"
 
 sum2=$(($num1+$num3))
 
