@@ -11,7 +11,7 @@ if [ $? -ne 0 ] ; then
   if [ $? -eq 0 ] ; then
     echo "$installation installed.. SUCCESSFUL"
   else
-    echo "$installation is failed.. FAILED"
+    echo "$installation not installed properly. Check the installer name and try again.. FAILED"
     exit 1
   fi
 else 
