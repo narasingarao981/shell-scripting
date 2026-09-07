@@ -11,3 +11,7 @@ then
 else
    echo " number is less than expected"
 fi
+
+
+# -lt for less than
+# -ne for not equals
