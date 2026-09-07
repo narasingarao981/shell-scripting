@@ -4,7 +4,7 @@ installation=$1
 runUser="root"
 
 
-if [ $USER -eq $runUser ] ; then
+if [[ "$USER" -eq "$runUser" ]] ; then
   echo "Script is executing with root user, Proceeding for installation part"
 else
   echo "Script is not executed with root user. killing the script execution, execute with root user"
